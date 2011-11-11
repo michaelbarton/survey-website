@@ -15,7 +15,7 @@
                 %a{:href => relative_path_to(@item) }
                   %h2
                     = "#{@item[:title]}"
-            = yield
+            ~ yield
     = google_analytics @site.config[:site][:analytics_token]
 -# Uncomment these lines after filling in the urls
 -#     = render "_disqus"

@@ -26,4 +26,4 @@ end
 compile '*' do; nil; end
 route   '*' do; nil; end
 
-layout '*', :haml, :format => :html5, :ugly => true
+layout '*', :haml, :format => :html5
