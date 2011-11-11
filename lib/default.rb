@@ -5,14 +5,6 @@ def stylesheet(location, media = 'screen,projection')
   "<link href='#{location}' media='#{media}' rel='stylesheet' type='text/css'>"
 end
 
-def highlight(lang)
-  "<pre class=\"prettyprint\">"
-end
-
-def endhighlight
-  "</pre>"
-end
-
 def google_fonts
   return unless @site.config[:google_fonts]
   output = String.new
