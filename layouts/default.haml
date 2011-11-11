@@ -6,9 +6,9 @@
   %body{:onload => "prettyPrint()" }
     .container
       = render "_navigation"
-      .content
-        = render "_title"
-        %div{:role => "main"}
+      .row
+        %div{"class" => "seven columns centered"}
+          = render "_title"
           %article
             %section
               %header
