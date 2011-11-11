@@ -26,5 +26,7 @@ author:
   name: "author name"
 google_fonts:
 scripts:
+  - "http://bioinfsurvey.s3.amazonaws.com/foundation.js"
 stylesheets:
+  "http://bioinfsurvey.s3.amazonaws.com/foundation.css": "screen,projection"
   "/stylesheets/stylesheet.css": "screen,projection"
