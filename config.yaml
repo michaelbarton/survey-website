@@ -18,8 +18,6 @@ site:
   url: "http://www.example.com"
   analytics_token: "token"
   navigation:
-    nav1: 'www.example.com'
-    nav2: 'www.example.com'
   feed: 'www.example.com'
 author:
   url: "http://www.example.com"
