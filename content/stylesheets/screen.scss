@@ -1,0 +1,36 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+
+// To configure blueprint, edit the partials/base.sass file.
+@import "partials/base";
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+
+// Import the non-default scaffolding module.
+@import "blueprint/scaffolding";
+@import "blueprint/liquid";
+// To generate css equivalent to the blueprint css but with your
+// configuration applied, uncomment:
+// @include blueprint
+
+// If you are doing a lot of stylesheet concatenation, it is suggested
+// that you scope your blueprint styles, so that you can better control
+// what pages use blueprint when stylesheets are concatenated together.
+body {
+  @include blueprint-typography(true);
+  @include blueprint-liquid-grid;
+  .container{
+    @include container;
+    .page-header{
+      @include append(6);
+      @include prepend(6);
+      @include column(12, true);
+    }
+    .content{
+      @include append(6);
+      @include prepend(6);
+      @include column(12, true);
+    }
+  }
+}
