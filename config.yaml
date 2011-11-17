@@ -23,7 +23,6 @@ author:
   name: "Michael Barton"
 google_fonts:
 scripts:
-  - "http://bioinfsurvey.s3.amazonaws.com/foundation.js"
 stylesheets:
-  "http://bioinfsurvey.s3.amazonaws.com/foundation.css": "screen,projection"
-  "/stylesheets/stylesheet.css": "screen,projection"
+  "/stylesheets/screen.css": "screen,projection"
+  "/stylesheets/print.css": "print"
