@@ -5,17 +5,15 @@
   = render "_header"
   %body.bp{:onload => "prettyPrint()" }
     .container
-      = render "_navigation"
-      .row
-        %div{"class" => "seven columns centered"}
-          = render "_title"
-          %article
-            %section
-              %header
-                %a{:href => relative_path_to(@item) }
-                  %h2
-                    = "#{@item[:title]}"
-            ~ yield
+      .page-header
+        = render "_title"
+        %article
+          %section
+            %header
+              %a{:href => relative_path_to(@item) }
+                %h2
+                  = "#{@item[:title]}"
+          ~ yield
     = google_analytics @site.config[:site][:analytics_token]
 -# Uncomment these lines after filling in the urls
 -#     = render "_disqus"
