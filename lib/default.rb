@@ -16,6 +16,10 @@ def google_fonts
   output
 end
 
+def google_apps_verification
+  '<meta name="google-site-verification" content="ceHFO1rQHYwXm0zmHGwh8_jjOr5WwufeOf9cWmvDPL8" />'
+end
+
 def scripts
   return unless @site.config[:scripts]
   output = String.new

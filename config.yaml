@@ -12,19 +12,17 @@ deploy:
     dst: "server:file_system_location"
     options: [ '-gpPrvz' ]
 site:
-  title: "Site title"
-  subtitle: "Site subtitle"
+  title: "Bioinformatics Survey"
+  subtitle: ""
   favicon: false
-  url: "http://www.example.com"
+  url: "http://bioinfsurvey.org"
   analytics_token: "token"
   navigation:
-  feed: 'www.example.com'
 author:
-  url: "http://www.example.com"
-  name: "author name"
+  url: "http://www.michaelbarton.me.uk"
+  name: "Michael Barton"
 google_fonts:
 scripts:
-  - "http://bioinfsurvey.s3.amazonaws.com/foundation.js"
 stylesheets:
-  "http://bioinfsurvey.s3.amazonaws.com/foundation.css": "screen,projection"
-  "/stylesheets/stylesheet.css": "screen,projection"
+  "/stylesheets/screen.css": "screen,projection"
+  "/stylesheets/print.css": "print"
