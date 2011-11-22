@@ -41,6 +41,14 @@ body {
   }
 }
 
+blockquote{
+  margin: 0 0 18px;
+  padding: 9px 20px 0 19px;
+  border-left-width: 3px;
+  border-left-color: #DDD;
+  border-left-style: solid;
+}
+
 header {
   a {
     text-decoration: none;
