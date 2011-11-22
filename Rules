@@ -16,9 +16,13 @@ route '/markup/*' do
 end
 
 compile '/markup/*' do
-  filter :erb
-  filter :rdiscount
-  layout 'default'
+  begin
+    filter :erb
+    filter :rdiscount
+    layout @item[:layout] || 'default'
+  rescue Exception => e
+    raise "Error processing : #{@item.identifier}\n#{e.message}"
+  end
 end
 
 # Ignore everything not already matched

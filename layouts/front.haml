@@ -1,0 +1,12 @@
+---
+---
+!!!
+%html{ :lang => 'en' }
+  = render "_header"
+  %body.bp{:onload => "prettyPrint()" }
+    .container
+      .page-header
+        = render "_title"
+        %article
+          ~ yield
+    = google_analytics @site.config[:site][:analytics_token]
