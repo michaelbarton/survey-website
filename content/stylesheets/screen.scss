@@ -23,6 +23,9 @@ body {
   .container{
     @include container;
     .page-header{
+      a {
+        text-decoration: none;
+      }
       @include append(6);
       @include prepend(6);
       @include column(12, true);
