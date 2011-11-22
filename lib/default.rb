@@ -48,5 +48,8 @@ def favicon
 end
 
 def site_title
- [@item[:title],@site.config[:site][:title],@site.config[:author][:name]].compact.uniq * " | "
+  title = Array.new
+  title << @item[:title] if (@item[:title] && @item[:title] != "")
+  title << @site.config[:site][:title]
+  title.compact.uniq * " | "
 end

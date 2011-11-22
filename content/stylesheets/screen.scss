@@ -23,14 +23,34 @@ body {
   .container{
     @include container;
     .page-header{
+      margin-top: 20px;
+      a {
+        text-decoration: none;
+      }
       @include append(6);
-      @include prepend(6);
       @include column(12, true);
+      @include prepend(6);
     }
     .content{
+      margin-top: 20px;
+      @include blueprint-typography-body(20px);
       @include append(6);
-      @include prepend(6);
       @include column(12, true);
+      @include prepend(6);
     }
+  }
+}
+
+blockquote{
+  margin: 0 0 18px;
+  padding: 9px 20px 0 19px;
+  border-left-width: 3px;
+  border-left-color: #DDD;
+  border-left-style: solid;
+}
+
+header {
+  a {
+    text-decoration: none;
   }
 }

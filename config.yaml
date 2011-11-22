@@ -16,7 +16,7 @@ site:
   subtitle: ""
   favicon: false
   url: "http://bioinfsurvey.org"
-  analytics_token: "token"
+  analytics_token: "UA-27218809-1"
   navigation:
 author:
   url: "http://www.michaelbarton.me.uk"
