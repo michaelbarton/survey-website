@@ -23,6 +23,7 @@ body {
   .container{
     @include container;
     .page-header{
+      margin-top: 20px;
       a {
         text-decoration: none;
       }
@@ -31,6 +32,7 @@ body {
       @include prepend(6);
     }
     .content{
+      margin-top: 20px;
       @include blueprint-typography-body(20px);
       @include append(6);
       @include column(12, true);
@@ -38,7 +40,6 @@ body {
     }
   }
 }
-
 
 header {
   a {
