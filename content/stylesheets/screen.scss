@@ -27,13 +27,20 @@ body {
         text-decoration: none;
       }
       @include append(6);
-      @include prepend(6);
       @include column(12, true);
+      @include prepend(6);
     }
     .content{
       @include append(6);
-      @include prepend(6);
       @include column(12, true);
+      @include prepend(6);
     }
+  }
+}
+
+
+header {
+  a {
+    text-decoration: none;
   }
 }
