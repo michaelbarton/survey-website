@@ -15,6 +15,5 @@
                 %h2
                   = "#{@item[:title]}"
           ~ yield
+        = render "_disqus"
     = google_analytics @site.config[:site][:analytics_token]
--# Uncomment these lines after filling in the urls
--#     = render "_disqus"
