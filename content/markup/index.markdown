@@ -1,5 +1,6 @@
 --- 
   title: About
+  disable_comments: true
 ---
 
 > Bioinformatics has become too central to biology to be left to specialist bioinformaticians. Biologists are all bioinformaticians now.
