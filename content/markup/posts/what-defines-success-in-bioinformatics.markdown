@@ -15,7 +15,7 @@ your job is more rewarding. Another example is [Steve Jobs's Stanford
 commencement speech][speech], viewed [a million times after his
 passing][views], highlighting the importance of working on what you love.
 
-Success therefore could measured using additional variables such as how
+Success therefore could be measured using additional variables such as how
 satisfied you are, the choice of what to work on, or being given the
 encouragement to improve your craft. Finally I think it's sensible to also just
 ask how successful you feel.
@@ -26,7 +26,7 @@ of these on the [original survey page][original]. I would like the 2012 survey
 to build on this by adding further specific areas of interest. You can see the
 outline these in [the survey aims][aims]. The first point I think should be
 what factors lead to success. This way, I hope, we can define a career in
-bioinformatics by more that just how much you'll be paid.
+bioinformatics by more that just how much money you'll make.
 
 [glassdoor.com]: http://www.glassdoor.com/
 [motivation]: http://www.youtube.com/watch?v=iXV6SYrQ_IE
