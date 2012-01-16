@@ -3,24 +3,29 @@
   created_at: "2011-12-06"
 ---
 
-Publications and grants are important. The more publications and grants you 
-publish and receive the better the researcher you are. How important are grants 
-and publications though? I think we can the bioinformatics survey to try and 
-quantify the effect of publications on your career.
+Publications and grants are important, concretely the more you produce the 
+better. Or so the pressure in academia goes, but exactly how important are 
+they? I think the results of the bioinformatics survey can examine a variety of 
+factors which may correlate with these two metrics. 
 
-What effects do amount of publications explain as an input variable. Will 
-publishing more result in a bigger salary, faster promotions or a greater level 
-of satisfaction?
+For instance what variables can lead to a greater number of publications? Are 
+you more likely to publish when you're younger, single and childless? Do 
+specific research areas generate more publications? Does working longer hours 
+or how happy you are correlate with more publications?
 
-Which factors result in a greater publication record. Are you more likely to 
-publish more when you're younger, single and without children? Are certain 
-research areas likely to lead to more publications? Does working longer hours 
-lead correlate with more publications? Do happier bioinformaticians publish 
-more?
+What factors might be expected to increase as an effect of publishing more? A 
+larger salary or faster promotion? Is publishing rewarded more in some 
+countries compared with others? Given a perfect system I think we might expect 
+the most published bioinformaticians to have the greatest rewards. However a 
+weak correlation may not be surprising result either given possible variation 
+from institution to institution in rewarding academics.
 
-Finally there is another factor to consider along side publications which is 
-networking. Along with publications, networking is also considered to be 
-central to a successful bioinformatics? How does networking stack up against 
-publications and grants. Networking is difficult to quantify in an online 
-survey along side concrete numbers of publications and grants. At best we can 
-however ask how much of a priority networking is.
+Altogether I think the results of the survey will however be able to answer a 
+significant question for pursing an academic career: Publications and grants 
+are important, but exactly how much?
+
+See the planned list of [survey questions focused on publications and 
+grants][questions].
+
+[questions]: 
+https://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/aims.txt#L45
