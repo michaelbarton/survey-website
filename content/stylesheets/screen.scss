@@ -14,6 +14,8 @@
 // configuration applied, uncomment:
 // @include blueprint
 
+@import "blueprint/buttons";
+
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
 // what pages use blueprint when stylesheets are concatenated together.
@@ -37,11 +39,16 @@ body {
       @include append(6);
       @include column(12, true);
       @include prepend(6);
+
+      .center {
+        @include prepend(6);
+        @include prepend(6);
+      }
     }
   }
 }
 
-blockquote{
+blockquote {
   margin: 0 0 18px;
   padding: 9px 20px 0 19px;
   border-left-width: 3px;
@@ -53,4 +60,11 @@ header {
   a {
     text-decoration: none;
   }
+}
+
+a.btn {
+  @include anchor-button;
+  @include button-colors;
+  @include button-hover-colors;
+  @include button-active-colors;
 }

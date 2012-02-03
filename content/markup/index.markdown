@@ -15,10 +15,11 @@ This survey aims to understand the field of bioinformatics by examining the
 people whom work in it. Salary, success, publications, research topics and
 happiness will be looked at.
 
-We're currently planning what data to collect for the survey. You can help us do this
-by forking and updating the survey [aims] and [questions] on
-github. You can also email thoughts and suggestions to the [bioinfomatics
-survey mailing list][mailinglist].
+<div class="center">
+  <a href="http://bioinfsurvey.org/questionnaire" class="btn">
+    Take the survey
+  </a>
+</div>
 
 [questions]: https://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/2011/questions.yml
 [aims]: http://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/aims.txt
