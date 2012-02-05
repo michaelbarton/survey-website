@@ -613,13 +613,19 @@ method="post" id="ss-form" name="ss-form">
   </div>
 </div><br>
 
+Choose up to three areas bioinformatics which best which describes your 
+research.
+
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_74">Choose an
-      area bioinformatics which best describes your
-      research.</label> <select name="entry.74.single" id=
+      <label class="ss-q-title" for="entry_74"></label> <select 
+      name="entry.74.single" id=
       "entry_74">
+
+        <option value="">
+        </option>
+
         <option value="Laboratory resources">
           Laboratory resources
         </option>
@@ -819,10 +825,13 @@ method="post" id="ss-form" name="ss-form">
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_75">Choose a
-      second area bioinformatics which best describes your
-      research.</label> <select name="entry.75.single" id=
+      <label class="ss-q-title" for="entry_75"></label> <select 
+      name="entry.75.single" id=
       "entry_75">
+
+        <option value="">
+        </option>
+
         <option value="Laboratory resources">
           Laboratory resources
         </option>
@@ -1022,10 +1031,13 @@ method="post" id="ss-form" name="ss-form">
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_77">Choose a
-      third area bioinformatics which best describes your
-      research.</label> <select name="entry.77.single" id=
+      <label class="ss-q-title" for="entry_77"></label> <select 
+      name="entry.77.single" id=
       "entry_77">
+
+        <option value="">
+        </option>
+
         <option value="Laboratory resources">
           Laboratory resources
         </option>
