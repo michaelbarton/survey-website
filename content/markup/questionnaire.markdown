@@ -626,14 +626,14 @@ Michael Barton ([@michaelbarton][])
   </div>
 </div>
 
-Choose up to three areas bioinformatics which best which describes your 
-research.
 
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_74"></label> <select 
-      name="entry.74.single" id=
+      <label class="ss-q-title" for="entry_74">
+      Choose up to three areas bioinformatics which best which describes your 
+      research.
+      </label> <select name="entry.74.single" id=
       "entry_74">
 
         <option value="">
