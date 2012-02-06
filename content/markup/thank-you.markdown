@@ -3,9 +3,23 @@
   disable_comments: true
 ---
 
-Thank you for taking the time to complete the questionnaire. You responses are 
-appreciated and your information will lead to a better understanding of our 
-field. We are also collecting a list of 
+Thank for taking the time to complete the questionnaire. Your responses are 
+appreciated and will help generate a public data set that describes our field 
+and the people withing it. The data will be released at the end of the survey 
+collection period.
+
+We are also collecting a separate list of bioinformaticians on twitter and 
+their homepages. If you would like to be included in this list please add your 
+details here. Again this data will also be released for the benefit of the 
+community.
+
+Thank you again.
+
+Michael Barton ([@michaelbarton][])
+
+[@michaelbarton]: http://twitter.com/michaelbarton
+
+<hr/>
 
 <%= start_form 'dHhmZ2k2U3RnZVA5VVlFdW51b1ZmRlE6MQ&amp;ifq', '/thank-you-again' %>
 
