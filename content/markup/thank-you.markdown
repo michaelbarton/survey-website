@@ -7,10 +7,7 @@ Thank you for taking the time to complete the questionnaire. You responses are
 appreciated and your information will lead to a better understanding of our 
 field. We are also collecting a list of 
 
-<form action=
-"https://docs.google.com/spreadsheet/formResponse?hl=en_GB&amp;formkey=dHhmZ2k2U3RnZVA5VVlFdW51b1ZmRlE6MQ&amp;ifq"
-method="post" id="ss-form" name="ss-form">
-<br>
+<%= start_form 'dHhmZ2k2U3RnZVA5VVlFdW51b1ZmRlE6MQ&amp;ifq', '/thank-you-again' %>
 
 What is your twitter profile name?
 <div class="errorbox-good">
