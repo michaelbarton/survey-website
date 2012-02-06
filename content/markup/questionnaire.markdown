@@ -528,8 +528,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-radio">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_44">Which field
-      did you do the majority of your undergraduate degree
-      in?</label>
+      did you complete your undergraduate degree in?</label>
 
       <ul class="ss-choices">
         <li class="ss-choice-item"><label class=
@@ -638,7 +637,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_74">
-      Choose up to three areas bioinformatics which best which describes your 
+      Choose up to three areas bioinformatics which best describes your 
       research.
       </label> <select name="entry.74.single" id=
       "entry_74">
@@ -1311,9 +1310,7 @@ Michael Barton ([@michaelbarton][])
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_48">What is your
       annual pre-tax gross salary in US dollars?</label>
-      <label class="ss-q-help" for="entry_48">How much do
-      you earn?</label> <select name="entry.48.single" id=
-      "entry_48">
+      <select name="entry.48.single" id="entry_48">
 
         <option value="">
         </option>
