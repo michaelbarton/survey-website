@@ -1577,7 +1577,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-scale">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_51">How much of
-      your time is split between bioinformatics and web-lab
+      your time is split between bioinformatics and wet-lab
       work?</label>
 
       <table border="0" cellpadding="5" cellspacing="0">
