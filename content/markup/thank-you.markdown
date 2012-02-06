@@ -10,8 +10,7 @@ collection period.
 
 We are also collecting a separate list of bioinformaticians on twitter and 
 their homepages. If you would like to be included in this list please add your 
-details here. Again this data will also be released for the benefit of the 
-community.
+details here. This data will also be released for the benefit of the community.
 
 Thank you again.
 
