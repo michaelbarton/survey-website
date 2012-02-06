@@ -7,13 +7,8 @@ This survey aims to understand the field of bioinformatics by surveying the
 people whom work in it. Once collected the data will be made available to the 
 community under a CC0 license. All questions in the survey are optional.
 
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe"
-style="display:none;" onload="if(submitted)
-{window.location='./thank-you';}"></iframe>
-<form action="https://docs.google.com/spreadsheet/formResponse?hl=en_GB&amp;formkey=dFRRNVctOXRyR3htQ2hFZFZkazJGeFE6MQ&amp;ifq" method="post" target="hidden_iframe" onsubmit="submitted=true;"> 
 
-<br>
+<%= start_form 'dFRRNVctOXRyR3htQ2hFZFZkazJGeFE6MQ&amp;ifq', '/thank-you' %>
 
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
