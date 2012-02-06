@@ -4,18 +4,17 @@
 ---
 This survey aims to understand the growing field of bioinformatics by examining 
 the scientists and researchers working within it. The questionnaire below will 
-ask you about yourself, your job, publications, working practices and your 
-feelings of success and happiness.
+ask you, your job, your publications, your working practices and your feelings 
+of success and happiness.
 
 Once collected the data will be made available to the community under a [CC0][] 
-license. This will be public data set which we hope will be useful to the 
+license. This is then a public data set which we hope will be useful to the 
 community as a whole and which can be compared to the data collected from [the 
 2008 survey][2008].
 
-We have strived to make the questions responses in the survey so that no one 
-can be identified from their responses. Nevertheless if you feel uncomfortable 
-answering any question please leave it blank. All questions in the survey are 
-optional.
+We have striven to make the questions general enough so that you can not be 
+identified from your answers. Nevertheless if you feel uncomfortable answering 
+any question please leave it blank. All questions in the survey are optional.
 
 Michael Barton ([@michaelbarton][])
 
@@ -432,10 +431,9 @@ Michael Barton ([@michaelbarton][])
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_42">Which region
-      of the world do you live in?</label> <label class=
-      "ss-q-help" for="entry_42">Please see this map to
-      find your location - http://bit.ly/un_map</label>
+      <label class="ss-q-title" for="entry_42">
+      Which region of the world do you live in? (See <a id='lightbox_image' 
+      href='http://bioinfsurvey.s3.amazonaws.com/map.png'>this map</a>)</label>
       <select name="entry.42.single" id="entry_42">
 
         <option value="">
@@ -529,8 +527,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-radio">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_44">Which field
-      did you do the majority of your undergraduate degree
-      in?</label>
+      did you complete your undergraduate degree in?</label>
 
       <ul class="ss-choices">
         <li class="ss-choice-item"><label class=
@@ -639,7 +636,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_74">
-      Choose up to three areas bioinformatics which best which describes your 
+      Choose up to three areas bioinformatics which best describes your 
       research.
       </label> <select name="entry.74.single" id=
       "entry_74">
@@ -789,10 +786,6 @@ Michael Barton ([@michaelbarton][])
 
         <option value="Literature analysis">
           Literature analysis
-        </option>
-
-        <option value="Ontologies">
-          Ontologies
         </option>
 
         <option value="Ontologies">
@@ -1001,10 +994,6 @@ Michael Barton ([@michaelbarton][])
           Ontologies
         </option>
 
-        <option value="Ontologies">
-          Ontologies
-        </option>
-
         <option value="Nomenclature">
           Nomenclature
         </option>
@@ -1207,10 +1196,6 @@ Michael Barton ([@michaelbarton][])
           Ontologies
         </option>
 
-        <option value="Ontologies">
-          Ontologies
-        </option>
-
         <option value="Nomenclature">
           Nomenclature
         </option>
@@ -1324,9 +1309,7 @@ Michael Barton ([@michaelbarton][])
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_48">What is your
       annual pre-tax gross salary in US dollars?</label>
-      <label class="ss-q-help" for="entry_48">How much do
-      you earn?</label> <select name="entry.48.single" id=
-      "entry_48">
+      <select name="entry.48.single" id="entry_48">
 
         <option value="">
         </option>
@@ -1595,7 +1578,7 @@ Michael Barton ([@michaelbarton][])
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_51">How much of
       your time is split between bioinformatics and web-lab
-      work</label>
+      work?</label>
 
       <table border="0" cellpadding="5" cellspacing="0">
         <tr>
