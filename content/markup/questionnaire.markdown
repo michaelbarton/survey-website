@@ -795,10 +795,6 @@ Michael Barton ([@michaelbarton][])
           Ontologies
         </option>
 
-        <option value="Ontologies">
-          Ontologies
-        </option>
-
         <option value="Nomenclature">
           Nomenclature
         </option>
@@ -1001,10 +997,6 @@ Michael Barton ([@michaelbarton][])
           Ontologies
         </option>
 
-        <option value="Ontologies">
-          Ontologies
-        </option>
-
         <option value="Nomenclature">
           Nomenclature
         </option>
@@ -1201,10 +1193,6 @@ Michael Barton ([@michaelbarton][])
 
         <option value="Literature analysis">
           Literature analysis
-        </option>
-
-        <option value="Ontologies">
-          Ontologies
         </option>
 
         <option value="Ontologies">
