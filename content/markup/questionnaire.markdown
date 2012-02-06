@@ -431,10 +431,8 @@ Michael Barton ([@michaelbarton][])
 <div class="errorbox-good">
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
-      <label class="ss-q-title" for="entry_42">Which region
-      of the world do you live in?</label> <label class=
-      "ss-q-help" for="entry_42">Please see this map to
-      find your location - http://bit.ly/un_map</label>
+      <label class="ss-q-title" for="entry_42">
+      Which region of the world do you live in? (See <a id='lightbox_image' href='http://upload.wikimedia.org/wikipedia/commons/0/08/United_Nations_geographical_subregions.png'>this map</a>)</label>
       <select name="entry.42.single" id="entry_42">
 
         <option value="">
