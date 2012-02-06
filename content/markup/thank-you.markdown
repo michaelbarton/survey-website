@@ -1,5 +1,6 @@
 ---
   title: Thank You!
+  disable_comments: true
 ---
 
 Thank you for taking the time to complete the questionnaire. You responses are 
