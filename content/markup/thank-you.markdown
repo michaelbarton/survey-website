@@ -21,7 +21,7 @@ Michael Barton ([@michaelbarton][])
 
 <hr/>
 
-<%= start_form 'dHhmZ2k2U3RnZVA5VVlFdW51b1ZmRlE6MQ&amp;ifq', '/thank-you-again' %>
+<%= start_form 'dHhmZ2k2U3RnZVA5VVlFdW51b1ZmRlE6MQ&amp;ifq', '/done' %>
 
 What is your twitter profile name?
 <div class="errorbox-good">
