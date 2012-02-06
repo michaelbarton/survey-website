@@ -2545,7 +2545,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-text">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_61">How many
-      grants, as principle investigator, have you
+      grants, as principal investigator, have you
       received?</label> <input type="text" name=
       "entry.61.single" value="" class="ss-q-short" id=
       "entry_61">
@@ -2557,7 +2557,7 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-radio">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_62">What is the
-      largest grant you, as principle investigator, have
+      largest grant you, as principal investigator, have
       received (US Dollars)?</label>
 
       <ul class="ss-choices">
