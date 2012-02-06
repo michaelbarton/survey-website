@@ -30,7 +30,7 @@ Michael Barton ([@michaelbarton][])
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
-      <h2 class="ss-section-title">About You</h2>
+      <h3 class="ss-section-title">About You</h3>
       <div class="ss-section-description ss-no-ignore-whitespace">
       </div>
     </div>
@@ -618,7 +618,7 @@ Michael Barton ([@michaelbarton][])
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
-      <h2 class="ss-section-title">About your job</h2>
+      <h3 class="ss-section-title">About your job</h3>
 
       <div class=
       "ss-section-description ss-no-ignore-whitespace">
@@ -2399,8 +2399,8 @@ research.
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
-      <h2 class="ss-section-title">About your Grants and
-      Publications</h2>
+      <h3 class="ss-section-title">About your Grants and
+      Publications</h3>
 
       <div class=
       "ss-section-description ss-no-ignore-whitespace">
@@ -2603,8 +2603,8 @@ research.
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
-      <h2 class="ss-section-title">About your working
-      practices</h2>
+      <h3 class="ss-section-title">About your working
+      practices</h3>
 
       <div class=
       "ss-section-description ss-no-ignore-whitespace">
@@ -3149,8 +3149,8 @@ research.
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
-      <h2 class="ss-section-title">About the future of
-      bioinformatics</h2>
+      <h3 class="ss-section-title">About the future of
+      bioinformatics</h3>
 
       <div class=
       "ss-section-description ss-no-ignore-whitespace">
