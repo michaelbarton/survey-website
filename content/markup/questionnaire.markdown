@@ -84,6 +84,10 @@ Michael Barton ([@michaelbarton][])
       <label class="ss-q-title" for="entry_40">Which year
       were you born?</label> <select name="entry.40.single"
       id="entry_40">
+
+        <option value="">
+        </option>
+
         <option value="1930">
           1930
         </option>
@@ -433,6 +437,10 @@ Michael Barton ([@michaelbarton][])
       "ss-q-help" for="entry_42">Please see this map to
       find your location - http://bit.ly/un_map</label>
       <select name="entry.42.single" id="entry_42">
+
+        <option value="">
+        </option>
+
         <option value="Africa, Northern">
           Africa, Northern
         </option>
@@ -1319,6 +1327,10 @@ Michael Barton ([@michaelbarton][])
       <label class="ss-q-help" for="entry_48">How much do
       you earn?</label> <select name="entry.48.single" id=
       "entry_48">
+
+        <option value="">
+        </option>
+
         <option value="0">
           0
         </option>
@@ -1680,6 +1692,10 @@ Michael Barton ([@michaelbarton][])
       <label class="ss-q-title" for="entry_50">How many
       hours do you work, on average, each week?</label>
       <select name="entry.50.single" id="entry_50">
+
+        <option value="">
+        </option>
+
         <option value="0">
           0
         </option>
@@ -2096,6 +2112,10 @@ Michael Barton ([@michaelbarton][])
       you attend external workshops and
       conferences?</label> <select name="entry.52.single"
       id="entry_52">
+
+        <option value="">
+        </option>
+
         <option value="0">
           0
         </option>
