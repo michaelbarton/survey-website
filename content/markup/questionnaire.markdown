@@ -4,18 +4,17 @@
 ---
 This survey aims to understand the growing field of bioinformatics by examining 
 the scientists and researchers working within it. The questionnaire below will 
-ask you about yourself, your job, publications, working practices and your 
-feelings of success and happiness.
+ask you, your job, your publications, your working practices and your feelings 
+of success and happiness.
 
 Once collected the data will be made available to the community under a [CC0][] 
-license. This will be public data set which we hope will be useful to the 
+license. This is then a public data set which we hope will be useful to the 
 community as a whole and which can be compared to the data collected from [the 
 2008 survey][2008].
 
-We have strived to make the questions responses in the survey so that no one 
-can be identified from their responses. Nevertheless if you feel uncomfortable 
-answering any question please leave it blank. All questions in the survey are 
-optional.
+We have striven to make the questions general enough so that you can not be 
+identified from your answers. Nevertheless if you feel uncomfortable answering 
+any question please leave it blank. All questions in the survey are optional.
 
 Michael Barton ([@michaelbarton][])
 
