@@ -432,7 +432,8 @@ Michael Barton ([@michaelbarton][])
   <div class="ss-item ss-select">
     <div class="ss-form-entry">
       <label class="ss-q-title" for="entry_42">
-      Which region of the world do you live in? (See <a id='lightbox_image' href='http://upload.wikimedia.org/wikipedia/commons/0/08/United_Nations_geographical_subregions.png'>this map</a>)</label>
+      Which region of the world do you live in? (See <a id='lightbox_image' 
+      href='http://bioinfsurvey.s3.amazonaws.com/map.png'>this map</a>)</label>
       <select name="entry.42.single" id="entry_42">
 
         <option value="">
