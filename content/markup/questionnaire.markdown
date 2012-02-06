@@ -23,7 +23,6 @@ Michael Barton ([@michaelbarton][])
 [2008]: http://openwetware.org/wiki/Biogang:Projects/Bioinformatics_Career_Survey_2008
 [@michaelbarton]: http://twitter.com/michaelbarton
 
-<hr/>
 
 <%= start_form 'dFRRNVctOXRyR3htQ2hFZFZkazJGeFE6MQ&amp;ifq', '/thank-you' %>
 
@@ -35,7 +34,9 @@ Michael Barton ([@michaelbarton][])
       </div>
     </div>
   </div>
-</div><br>
+</div>
+
+<hr/><br>
 
 <div class="errorbox-good">
   <div class="ss-item ss-radio">
@@ -615,6 +616,7 @@ Michael Barton ([@michaelbarton][])
   </div>
 </div><br>
 
+
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
@@ -625,7 +627,9 @@ Michael Barton ([@michaelbarton][])
       </div>
     </div>
   </div>
-</div><br>
+</div>
+
+<hr/><br>
 
 Choose up to three areas bioinformatics which best which describes your 
 research.
@@ -2396,6 +2400,7 @@ research.
   </div>
 </div><br>
 
+
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
@@ -2407,7 +2412,9 @@ research.
       </div>
     </div>
   </div>
-</div><br>
+</div>
+
+<hr/><br>
 
 <div class="errorbox-good">
   <div class="ss-item ss-text">
@@ -2600,6 +2607,7 @@ research.
   </div>
 </div><br>
 
+
 <div class="errorbox-good">
   <div class="ss-item ss-section-header">
     <div class="ss-form-entry">
@@ -2611,7 +2619,9 @@ research.
       </div>
     </div>
   </div>
-</div><br>
+</div>
+
+<hr/><br>
 
 <div class="errorbox-good">
   <div class="ss-item ss-checkbox">
@@ -3157,7 +3167,9 @@ research.
       </div>
     </div>
   </div>
-</div><br>
+</div>
+
+<hr/><br>
 
 <div class="errorbox-good">
   <div class="ss-item ss-paragraph-text">
