@@ -2754,7 +2754,7 @@ Michael Barton ([@michaelbarton][])
         <li class="ss-choice-item"><label class=
         "ss-choice-label"><input type="checkbox" name=
         "entry.63.group" value="OCaml" class=
-        "ss-q-checkbox" id="group_63_24">
+        "ss-q-checkbox" id="grou_63_24">
         OCaml</label></li>
 
         <li class="ss-choice-item"><label class=
@@ -2784,6 +2784,12 @@ Michael Barton ([@michaelbarton][])
         "entry.63.group" value="Visual Basic" class=
         "ss-q-checkbox" id="group_63_29"> Visual
         Basic</label></li>
+
+        <li class="ss-choice-item"><label class=
+        "ss-choice-label"><input type="checkbox" name=
+        "entry.63.group" value="shell scripting language" class=
+        "ss-q-checkbox" id="group_63_30"> Shell Scripting Language (e.g. 
+        bash/zsh/tcsh)</label></li>
 
         <li class="ss-choice-item"><input type="checkbox"
         name="entry.63.group" value="__option__" class=
