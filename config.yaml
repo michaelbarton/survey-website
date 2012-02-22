@@ -18,6 +18,9 @@ site:
   url: "http://bioinfsurvey.org"
   analytics_token: "UA-27218809-1"
   navigation:
+    Home: "/"
+    Contact: "mailto:mail@michaelbarton.me.uk"
+    About: "/about"
 author:
   url: "http://www.michaelbarton.me.uk"
   name: "Michael Barton"
@@ -26,6 +29,5 @@ scripts:
   - "https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
   - "/fancybox/javascript.js"
 stylesheets:
-  "/stylesheets/screen.css": "screen,projection"
-  "/stylesheets/print.css": "print"
-  "/fancybox/styles.css": "screen,projection"
+  "/bootstrap/css/bootstrap.min.css": "screen,projection,print"
+  "/google/google-docs.css": "screen,projection,print"

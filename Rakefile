@@ -47,3 +47,5 @@ task :publish do
 
   puts "Done"
 end
+
+task :default => :build

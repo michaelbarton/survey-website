@@ -1,5 +1,6 @@
 --- 
-  title: About
+  title: Outline
+  hidebutton: true
   disable_comments: true
 ---
 
@@ -15,11 +16,7 @@ This survey aims to understand the field of bioinformatics by examining the
 people whom work in it. Salary, success, publications, research topics and
 happiness will be looked at.
 
-<div class="centre">
-  <a href="/questionnaire" class="btn">
-    Take the survey
-  </a>
-</div>
+<%= button %>
 
 [questions]: https://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/2011/questions.yml
 [aims]: http://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/aims.txt

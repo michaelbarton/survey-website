@@ -63,14 +63,10 @@ increase survey collection by tweeting or mentioning the survey on your blog,
 particularly if you are from an under represented country. Any other 
 suggestions toward increased participation are welcome in the comments too.
 
-<div class="centre">
-  <a href="/questionnaire" class="btn">
-    Take the survey
-  </a>
-</div>
+<%= button %>
 
 <br/>
 
-[BioStar]: biostar.stackexchange.com
+[BioStar]: http://biostar.stackexchange.com
 [pierre]: https://twitter.com/yokofakun
 [post]: http://sciblogs.co.nz/code-for-life/2012/02/08/bioinformatics-survey/

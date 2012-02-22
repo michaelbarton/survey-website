@@ -4,15 +4,39 @@
 %html{ :lang => 'en' }
   = render "_header"
   %body
-    .container
-      .page-header
-        = render "_title"
+    .container-fluid
+      .row-fluid
+        .span4
+          %p
+        .span4
+          .page-header
+            = render "_title"
+        .span4
+          %p
       .content
         %article
           %section
-            %header
-              %h2
-                = "#{@item[:title]}"
-          ~ yield
-        = render "_disqus"
+          .row-fluid
+            .span4
+              %p
+            .span4
+              %header
+                %h2
+                  = "#{@item[:title]}"
+            .span4
+              %p
+          .row-fluid
+            .span4
+              .row-fluid
+                .span10
+                  %p
+                .span2
+                  = render "_navigation"
+            .span4
+              ~ yield
+              = render "_disqus"
+            .span4
+              %p
+        .span4
+          %p
     = google_analytics @site.config[:site][:analytics_token]

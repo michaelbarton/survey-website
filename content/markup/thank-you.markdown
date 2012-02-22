@@ -1,5 +1,6 @@
 ---
   title: Thank You!
+  hidebutton: true
   disable_comments: true
 ---
 

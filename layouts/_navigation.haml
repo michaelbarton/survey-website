@@ -1,9 +1,9 @@
 - if @site.config[:site][:navigation]
-  .topbar
-    .fill
-      .container
-        %ul.nav
-          - @site.config[:site][:navigation].each do |name,href|
-            %li
-              %a{:href => href}
-                = name
+  %ul.unstyled
+    - @site.config[:site][:navigation].each do |name,href|
+      %li
+        %a{:href => href}
+          = name
+  - unless @item[:hidebutton]
+    %a{:href => "/questionnaire",:class => "btn btn-primary btn-small" }
+      = "Take the survey"
