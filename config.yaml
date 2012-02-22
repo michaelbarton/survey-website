@@ -18,6 +18,9 @@ site:
   url: "http://bioinfsurvey.org"
   analytics_token: "UA-27218809-1"
   navigation:
+    Home: "/"
+    Contact: "mailto:mail@michaelbarton.me.uk"
+    About: "/about"
 author:
   url: "http://www.michaelbarton.me.uk"
   name: "Michael Barton"

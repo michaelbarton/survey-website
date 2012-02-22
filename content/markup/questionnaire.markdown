@@ -1,5 +1,6 @@
 ---
   title: Questionnaire
+  hidebutton: true
   disable_comments: true
 ---
 This survey aims to understand the growing field of bioinformatics by examining 

@@ -1,5 +1,6 @@
 --- 
   title: Outline
+  hidebutton: true
   disable_comments: true
 ---
 
