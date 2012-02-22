@@ -40,9 +40,9 @@ body {
       @include column(12, true);
       @include prepend(6);
 
-      .center {
-        @include prepend(6);
-        @include prepend(6);
+      .centre {
+        @include prepend(7);
+        @include append(7);
       }
     }
   }
