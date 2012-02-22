@@ -67,6 +67,6 @@ suggestions toward increased participation are welcome in the comments too.
 
 <br/>
 
-[BioStar]: biostar.stackexchange.com
+[BioStar]: http://biostar.stackexchange.com
 [pierre]: https://twitter.com/yokofakun
 [post]: http://sciblogs.co.nz/code-for-life/2012/02/08/bioinformatics-survey/
