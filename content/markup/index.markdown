@@ -15,7 +15,7 @@ This survey aims to understand the field of bioinformatics by examining the
 people whom work in it. Salary, success, publications, research topics and
 happiness will be looked at.
 
-<div class="center">
+<div class="centre">
   <a href="/questionnaire" class="btn">
     Take the survey
   </a>

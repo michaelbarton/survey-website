@@ -1,6 +1,22 @@
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
 
+def urlify(url)
+  url =~ /http:/ ? url : relative_path_to(url)
+end
+
+def amzn(file)
+  File.join "http://s3.amazonaws.com/bioinfsurvey/", file
+end
+
+def image(url,width=500,options={})
+  link = "<img src='#{urlify(url)}' width=#{width}>"
+  if options[:link]
+    link = "<a href='#{urlify(options[:link])}'>#{link}</a>"
+  end
+  link
+end
+
 def stylesheet(location, media = 'screen,projection')
   "<link href='#{location}' media='#{media}' rel='stylesheet' type='text/css'>"
 end
