@@ -27,3 +27,4 @@ scripts:
   - "/fancybox/javascript.js"
 stylesheets:
   "/bootstrap/css/bootstrap.min.css": "screen,projection,print"
+  "/google/google-docs.css": "screen,projection,print"
