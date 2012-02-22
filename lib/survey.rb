@@ -1,4 +1,16 @@
-
+def button
+  <<-EOS
+<div class='row-fluid'>
+  <div class='span4'><p/></div>
+  <div class='span4'>
+    <a href="#{relative_path_to "/questionnaire"}" class="btn btn-primary btn-large">
+      Take the survey
+    </a>
+  </div>
+  <div class='span4'><p/></div>
+</div>
+  EOS
+end
 
 def start_form(form_key,redirect)
   <<-EOS
