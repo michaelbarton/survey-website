@@ -26,6 +26,4 @@ scripts:
   - "https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
   - "/fancybox/javascript.js"
 stylesheets:
-  "/stylesheets/screen.css": "screen,projection"
-  "/stylesheets/print.css": "print"
-  "/fancybox/styles.css": "screen,projection"
+  "/bootstrap/css/bootstrap.min.css": "screen,projection,print"
