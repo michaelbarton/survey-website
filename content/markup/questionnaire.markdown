@@ -4,8 +4,8 @@
 ---
 This survey aims to understand the growing field of bioinformatics by examining 
 the scientists and researchers working within it. The questionnaire below will 
-ask you, your job, your publications, your working practices and your feelings 
-of success and happiness.
+ask about you, your job, your publications, your working practices and your 
+feelings of success and happiness.
 
 Once collected the data will be made available to the community under a [CC0][] 
 license. This is then a public data set which we hope will be useful to the 
