@@ -1,5 +1,5 @@
 --- 
-  title: About
+  title: Outline
   disable_comments: true
 ---
 
