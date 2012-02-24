@@ -21,6 +21,7 @@ site:
     Home: "/"
     Contact: "mailto:mail@michaelbarton.me.uk"
     About: "/about"
+    Blog: "/posts"
 author:
   url: "http://www.michaelbarton.me.uk"
   name: "Michael Barton"

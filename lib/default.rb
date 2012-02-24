@@ -36,6 +36,10 @@ def google_apps_verification
   '<meta name="google-site-verification" content="ceHFO1rQHYwXm0zmHGwh8_jjOr5WwufeOf9cWmvDPL8" />'
 end
 
+def posts
+  render "_posts"
+end
+
 def scripts
   return unless @site.config[:scripts]
   output = String.new
