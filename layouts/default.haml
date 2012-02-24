@@ -8,7 +8,7 @@
       .row-fluid
         .span4
           %p
-        .span4
+        .span5
           .page-header
             = render "_title"
         .span4
@@ -19,7 +19,7 @@
           .row-fluid
             .span4
               %p
-            .span4
+            .span5
               %header
                 %h2
                   = "#{@item[:title]}"
@@ -32,7 +32,7 @@
                   %p
                 .span2
                   = render "_navigation"
-            .span4
+            .span5
               ~ yield
               = render "_disqus"
             .span4
