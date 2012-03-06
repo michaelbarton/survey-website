@@ -31,8 +31,4 @@ Finally here's a figure I found quite interesting to generate, this shows the di
 
 <%= image amzn('results/week_3_response/age_and_position.png') %>
 
-<%= button %>
-
-<br/>
-
 [previous]: http://bioinfsurvey.org/posts/two-week-summary/

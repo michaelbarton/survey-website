@@ -8,5 +8,3 @@ questionnaire is open. If you haven't already filled out the questionnaire you
 can do so by following the link below.
 
 <%= image amzn('results/week_4_response/by_time.png') %>
-
-<%= button %>
