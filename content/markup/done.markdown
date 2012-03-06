@@ -1,6 +1,5 @@
 ---
   title: All Questionnaires Answered
-  hidebutton: true
 ---
 
 Thank you again. The collected data will be released into the public domain at 
