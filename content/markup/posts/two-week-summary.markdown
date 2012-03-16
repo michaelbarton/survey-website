@@ -1,6 +1,6 @@
 --- 
   title: Two weeks of responses 
-  created_at: "2011-02-21"
+  created_at: "2012-02-21"
 ---
 
 I started the bioinformatics survey two weeks ago. Thank you to everyone who 
