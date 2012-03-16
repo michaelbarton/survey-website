@@ -1,5 +1,6 @@
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
+include Nanoc3::Helpers::Blogging
 
 def urlify(url)
   url =~ /http:/ ? url : relative_path_to(url)
@@ -36,6 +37,10 @@ def google_apps_verification
   '<meta name="google-site-verification" content="ceHFO1rQHYwXm0zmHGwh8_jjOr5WwufeOf9cWmvDPL8" />'
 end
 
+def posts
+  render "_posts"
+end
+
 def scripts
   return unless @site.config[:scripts]
   output = String.new
@@ -68,4 +73,12 @@ def site_title
   title << @item[:title] if (@item[:title] && @item[:title] != "")
   title << @site.config[:site][:title]
   title.compact.uniq * " | "
+end
+
+def pretty_date(item)
+  Time.parse(item[:created_at]).strftime('%b %d %y')
+end
+
+def time_for(time)
+  Time.parse(time).xmlschema
 end
