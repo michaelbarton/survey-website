@@ -2,6 +2,12 @@
 require 'compass'
 Compass.add_project_configuration 'compass.config'
 
+preprocess do 
+  @items.each do |item| 
+    item[:kind] = "article" if item.identifier =~ /posts\/.+/
+  end 
+end
+
 route '/vendor/*' do
   # /static/foo.ext → /foo.ext
   item.identifier[7..-2] + '.' + item[:extension]

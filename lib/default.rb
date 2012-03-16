@@ -1,5 +1,6 @@
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
+include Nanoc3::Helpers::Blogging
 
 def urlify(url)
   url =~ /http:/ ? url : relative_path_to(url)
@@ -72,4 +73,8 @@ def site_title
   title << @item[:title] if (@item[:title] && @item[:title] != "")
   title << @site.config[:site][:title]
   title.compact.uniq * " | "
+end
+
+def pretty_date(item)
+  Time.parse(item[:created_at]).strftime('%b %d %y')
 end
