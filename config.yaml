@@ -25,6 +25,8 @@ site:
 author:
   url: "http://www.michaelbarton.me.uk"
   name: "Michael Barton"
+  email: "mail@michaelbarton.me.uk"
+base_url: "http://bioinfsurvey.org"
 google_fonts:
 scripts:
   - "https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"

@@ -18,7 +18,6 @@ route '/markup/*' do
   # /markup/foo.markdown → /foo/index.html
   item.identifier[7..-1] + 'index.html'
 end
-
 compile '/markup/*' do
   begin
     filter :erb
@@ -27,6 +26,13 @@ compile '/markup/*' do
   rescue Exception => e
     raise "Error processing : #{@item.identifier}\n#{e.message}"
   end
+end
+
+compile '/atom/' do
+    filter :haml
+end
+route '/atom/' do
+    '/atom.xml'
 end
 
 # Ignore everything not already matched
