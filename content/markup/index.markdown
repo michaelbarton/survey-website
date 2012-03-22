@@ -16,7 +16,7 @@ bioinformatics community throught the github project.
 
 ## News
 
-<%= render '_posts' %>
+<%= render '_posts', :kind => 'article' %>
 
 [2008]: http://openwetware.org/wiki/Biogang:Projects/Bioinformatics_Career_Survey_2008
 [1]: http://biostar.stackexchange.com/questions/34
