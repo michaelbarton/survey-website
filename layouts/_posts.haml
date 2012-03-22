@@ -7,5 +7,5 @@
         %span
           = pretty_date(article)
         &raquo; &nbsp;
-        %a{:href => url_for(article) }
+        %a{:href => relative_path_to(article) }
           = "#{article[:title]}"
