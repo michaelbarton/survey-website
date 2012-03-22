@@ -2,8 +2,12 @@ require 'rack/contrib/try_static'
 require 'rack/rewrite'
 
 use Rack::Rewrite do
-  r302 "/analysis/", "/"
-  r302 "/posts/",    "/"
+
+  # Url bases for analysis and posts pages
+  r302 /(\/analysis|posts)\/?$/, "/"
+
+  # Pages from survey collection
+  r302 /\/questionnaire|thank-you|done\/?/, "/closed"
 end
 
 use Rack::TryStatic, 
