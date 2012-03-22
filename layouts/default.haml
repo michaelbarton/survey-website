@@ -22,7 +22,7 @@
             .span5
               %header
                 %h2
-                  = "#{@item[:title]}"
+                  = @item[:long_title] || @item[:title]
             .span4
               %p
           .row-fluid

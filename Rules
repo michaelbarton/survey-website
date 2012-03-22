@@ -4,7 +4,14 @@ Compass.add_project_configuration 'compass.config'
 
 preprocess do 
   @items.each do |item| 
-    item[:kind] = "article" if item.identifier =~ /posts\/.+/
+
+    case item.identifier
+    when /posts\/.+/ then
+      item[:kind] = "article"
+    when /analysis\/.+/ then
+      item[:kind] = "analysis"
+      item[:long_title] = "Analysis of " + item[:title]
+    end
   end 
 end
 

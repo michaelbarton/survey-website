@@ -7,15 +7,24 @@
 
 <cite><a href="http://genomebiology.com/content/9/12/114">Lincoln D Stein, Genome Biology 2008</a></cite>
 
-What is bioinformatics? What defines a bioinformatician? What areas are being
-researched in bioinformatics? Does a big salary make you happy? What does it
-take to be successful?
+This survey aims to understand the field of bioinformatics by surveying the
+people whom work in it. The survey was [first collected in 2008][2008] and has 
+since been used in discussions about bioinformatics careers ([1][], [2][],
+[3][], [4][]). A new iteration of the survey was started by [Pierre Lindenbaum on
+biostar][biostar]. The collected the data is available to all members of the 
+bioinformatics community throught the github project.
 
-This survey aims to understand the field of bioinformatics by examining the
-people whom work in it. Salary, success, publications, research topics and
-happiness will be looked at.
+## Updates
 
-[questions]: 
-https://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/2011/questions.yml
-[aims]: http://github.com/michaelbarton/bioinformatics-career-survey/blob/develop/aims.txt
-[mailinglist]: mailto:bioinfsurvey@librelist.com
+<%= render '_posts', :kind => 'article' %>
+
+## Analysis
+
+<%= render '_posts', :kind => 'analysis' %>
+
+[2008]: http://openwetware.org/wiki/Biogang:Projects/Bioinformatics_Career_Survey_2008
+[1]: http://biostar.stackexchange.com/questions/34
+[2]: http://biostar.stackexchange.com/questions/11690
+[3]: http://biostar.stackexchange.com/questions/3485/
+[4]: http://genomebiology.com/2008/9/12/114
+[biostar]: http://biostar.stackexchange.com/questions/12663
