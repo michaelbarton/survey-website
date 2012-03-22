@@ -1,4 +1,10 @@
 require 'rack/contrib/try_static'
+require 'rack/rewrite'
+
+use Rack::Rewrite do
+  r302 "/analysis/", "/"
+  r302 "/posts/",    "/"
+end
 
 use Rack::TryStatic, 
     :root => "output",

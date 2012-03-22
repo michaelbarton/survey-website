@@ -2,6 +2,11 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::Blogging
 
+
+def sorted_by_kind(kind)
+  @items.select{|item| item[:kind] == kind}
+end
+
 def urlify(url)
   url =~ /http:/ ? url : relative_path_to(url)
 end
@@ -35,10 +40,6 @@ end
 
 def google_apps_verification
   '<meta name="google-site-verification" content="ceHFO1rQHYwXm0zmHGwh8_jjOr5WwufeOf9cWmvDPL8" />'
-end
-
-def posts
-  render "_posts"
 end
 
 def scripts

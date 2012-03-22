@@ -1,11 +1,11 @@
 ---
 ---
 %ul.unstyled
-  - sorted_articles.each do |article|
+  - sorted_by_kind(kind).each do |article|
     %li
       %article
         %span
           = pretty_date(article)
         &raquo; &nbsp;
-        %a{:href => url_for(article) }
+        %a{:href => relative_path_to(article) }
           = "#{article[:title]}"
