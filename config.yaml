@@ -20,6 +20,7 @@ site:
   navigation:
     Home: "/"
     Contact: "mailto:mail@michaelbarton.me.uk"
+    Contribute: "/contribute"
 author:
   url: "http://www.michaelbarton.me.uk"
   name: "Michael Barton"
