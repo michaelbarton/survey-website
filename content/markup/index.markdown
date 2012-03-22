@@ -14,9 +14,13 @@ since been used in discussions about bioinformatics careers ([1][], [2][],
 biostar][biostar]. The collected the data is available to all members of the 
 bioinformatics community throught the github project.
 
-## News
+## Updates
 
 <%= render '_posts', :kind => 'article' %>
+
+## Analysis
+
+<%= render '_posts', :kind => 'analysis' %>
 
 [2008]: http://openwetware.org/wiki/Biogang:Projects/Bioinformatics_Career_Survey_2008
 [1]: http://biostar.stackexchange.com/questions/34
